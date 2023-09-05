@@ -6,7 +6,7 @@
             "Effect": "Allow",
             "Principal": "*",
             "Action": "s3:GetObject",
-            "Resource": "YOUR-BUCKET-ARN/*"
+            "Resource": "arn:aws:s3:::aws-soa-labs/*"
         }
     ]
 }
